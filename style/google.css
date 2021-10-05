@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-google {
+    background-image: url('../public/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: 20px;
+}
+
+h4 {
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 16px;
+}
+
+#dots-menu {
+    width: 20px;
+    height: 20px;
+    margin-right: 16px;
+}
+
+#profile-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+.logo-search {
+    display: grid;
+    justify-content: center !important;
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+#google-logo {
+    width: 20vw;
+    display: grid;
+    justify-self: center;
+}
+
+.search {
+    background-color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    width: 40vw;
+    height: 45px;
+    border-radius: 30px;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p, .bi-search {
+    color: rgb(88, 88, 88);
+    margin-right: 16px;
+}
+
+p {
+    padding-right: 150px;
+}
+
+.bi-search {
+    justify-content: left;
+    padding-left: 20px;
+    font-size: 12px;
+}
+
+.bi-mic-fill {
+    justify-content: right !important;
+    color: rgb(27, 140, 184) !important;
+}
+
+
+#fixo1 {
+    color: rgb(223, 219, 219);
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    padding-top: 160px;
+    font-weight: 600;
+    position: static;
+}
+
+span {
+    text-decoration-line:underline;
+}
+
+#autoria {
+    font-size: 13px !important;
+}
