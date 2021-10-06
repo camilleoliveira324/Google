@@ -10,8 +10,8 @@
 /*Header*/
 .bg-google {
     background-image: url('../public/bg.png');
-    background-size: contain;
     background-repeat: no-repeat;
+    background-size: cover ;
 }
 
 .header {
@@ -108,9 +108,14 @@ p {
     color: rgb(223, 219, 219);
     font-family: 'Roboto', sans-serif;
     margin: 20px;
-    padding-top: 160px;
+    margin-bottom: 0;
+    margin-top: -20px;
     font-weight: 600;
-    
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    position: fixed;
+    width: 95vw;
 }
 
 span {
@@ -139,7 +144,6 @@ span {
     grid-template-columns: repeat(5, 1fr);
     text-align: center;
     max-width: 600px;
-    justify-items: center !important;
 }
 
 .fav-icons:hover {
@@ -153,16 +157,12 @@ span {
     grid-template-columns: repeat(4,1fr);
 }
 
-.add-fav {
+.text-add-fav {
+    margin-top: 20px;
 }
-
-.addfav {
-    align-content: space-between !important;
-}
-
-.bi-plus {
-    font-size: 25px;
-    font-weight: 900;
+.plus {
+    width: 40px !important;
+    height: 40px !important;
 }
 
 small {
